@@ -1,0 +1,7 @@
+---
+Name: WebsitesMonitorconfig
+---
+SSViewer:
+  theme: 'websites-monitor'
+AdminRootController:
+  default_panel: 'WebsiteAdmin'

@@ -1,0 +1,11 @@
+Name: website-monitor-routes
+Before: '*'
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+  - '#modelascontrollerroutes'
+  - '#adminroutes'
+---
+Director:
+  rules:
+    '': 'AppController'

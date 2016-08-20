@@ -1,0 +1,11 @@
+Website:
+  dynamic:
+    Title: Dynamic
+    URL: http://dynamicagency.com
+    Active: true
+    Description: "<p>Dynamic is a digital advertising agency for the 21st century.</p>"
+  blarg:
+    Title: Dummy Site
+    URL: http://blarg.com
+    Active: true
+    Description: "<p>A dummy site for test purposes. Shouldn't return true for getIsLive()</p>"

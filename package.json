@@ -1,0 +1,20 @@
+{
+  "name": "Websites-Monitor",
+  "version": "1.0.0",
+  "description": "Silverstripe module that renders websites or shows an error message",
+  "main": "./public/src/main.js",
+  "license": "BSD-3-Clause",
+  "author": "Dynamic Inc.",
+  "contributors": [
+    {
+      "name": "Dynamic Inc.",
+      "email": "dev@dy.ag"
+    }
+  ],
+  "dependencies": {
+    "gulp-packer": "^0.1.2",
+    "gulp-streamify": "^1.0.2",
+    "jshint": "^2.9.1",
+    "gulp-concat": "^2.6"
+  }
+}
