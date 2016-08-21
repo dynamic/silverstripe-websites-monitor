@@ -1,5 +1,5 @@
 {
-  "name": "Websites-Monitor",
+  "name": "dynamic/websites-monitor",
   "description": "SilverStripe module that renders websites or shows an error message",
   "authors": [
     {
