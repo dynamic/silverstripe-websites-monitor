@@ -1,15 +1,14 @@
-body, .slide-frame{
+body, .slide-frame {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
-}
+  overflow: hidden; }
+
 .flexslider {
   padding: 0;
   margin: 0;
-  border: 0;
-}
-.site-info{
-  padding: 0 15px;
-}
+  border: 0; }
+
+.site-info {
+  padding: 0 15px; }

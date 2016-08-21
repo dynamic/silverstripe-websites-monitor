@@ -22,7 +22,9 @@ class WebsiteController extends Controller
         parent::init();
 
         Requirements::css('websites-monitor/javascript/thirdparty/FlexSlider-2.6.2/flexslider.css');
+        Requirements::css('websites-monitor/css/main.css');
         Requirements::javascript('websites-monitor/javascript/dist/site.min.js');
+        Requirements::javascript('websites-monitor/javascript/thirdparty/FlexSlider-2.6.2/jquery.flexslider-min.js');
 
         Requirements::customScript("
                 (function($) {
@@ -31,7 +33,11 @@ class WebsiteController extends Controller
                             slideshow: true,
                             animation: 'fade',
                             animationLoop: true,
-                            slideshowSpeed: 2000
+                            slideshowSpeed: 10000,
+                            animationSpeed: 2000,
+                            touch: false,
+                            controlNav: false,
+                            directionNav: false
                         });
                     });
                 }(jQuery));");
